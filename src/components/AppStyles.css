@@ -1,0 +1,16 @@
+body{
+    overflow-x: visible;
+    
+}
+.menu{
+    background-color: beige;
+    width: 75%;
+    margin: 0 auto 0 auto;
+    border-radius: 20px;
+}
+.blur{
+    filter: blur(5px);
+}
+.animating{
+    animation: slide-down 300ms ease-in backwards;
+}
