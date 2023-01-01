@@ -21,7 +21,7 @@ function App() {
       <Header change={changeView}/>
       <MealSummary />
       <div className="menu">
-      { DUMMY_MEALS.map((data)=> <MealAvail price={data.price} name={data.name} description={data.description}/>)};
+      { DUMMY_MEALS.map((data)=> <MealAvail price={data.price} name={data.name} description={data.description} id={data.id}/>)};
       </div>
       
     </div>

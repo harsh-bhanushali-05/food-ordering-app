@@ -7,7 +7,7 @@ return (
 <h3>{props.name}</h3>
 <p className="description">{props.description}</p>
 <p className="price">{props.price}</p>
-<AddCart/>
+<AddCart id={props.id}/>
 </div>);
 }
 export default MealAvail;
